@@ -171,7 +171,8 @@ footer {
     padding: 10px;
     text-align: center;
     color: #dedede;
-    background-color: rgba(0, 0, 20, 0.4);
+    background-color: rgba(0, 0, 20, 0.5);
     font-size: 20px;
     box-sizing: border-box;
+    font-family: 'Cinzel Decorative', cursive;
 }
