@@ -76,12 +76,16 @@ nav ul li a:hover {
 
 .banner {
     width: 100%;
-    height: auto;
+    height: 200px;
     margin: 0;
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .banner img {
     max-width: 100%;
+    
 }
 
 html.sr .load-hidden {
