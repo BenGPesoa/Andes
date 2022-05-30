@@ -73,16 +73,19 @@ nav ul li a {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     border-radius: 15px 15px 0 0;
+    box-shadow: -2px -2px 8px rgba(0, 0, 15, 0.2);    
 }
 
 nav ul li a:hover {
     background-color: black;
     color: #dedede;
+    box-shadow: -2px -2px 8px rgba(0, 0, 15, 0.5);
 }
 
 .activo {
     background-color: black;
     color: #dedede;
+    box-shadow: -2px -2px 8px rgba(0, 0, 15, 0.5);
 }
 
 .banner {
@@ -92,6 +95,7 @@ nav ul li a:hover {
     display: block;
     box-sizing: border-box;
     padding: 0;
+    overflow: hidden;
 }
 
 .banner img {
@@ -285,4 +289,66 @@ footer {
     font-size: 20px;
     color: #dedede;
     line-height: 30px;
+}
+
+
+/* ------ Productos ------ */
+
+
+.productos {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+   
+}
+
+.listaProductos {
+    display: inline-block;
+    width: 18%;
+    border-right: solid 2px black;
+    
+}
+
+.listaProductos ul{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    
+    padding: 0;
+}
+
+.listaProductos ul li {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.listaProductos ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+
+
+.cardsProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 25%;
+    margin: 20px;
+}
+
+.card img {
+    max-width: 90%;
 }
