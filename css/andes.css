@@ -146,14 +146,19 @@ html.sr .load-hidden {
     box-shadow: 0px 10px 13px -7px #000000;
 }
 
+
+
+/* ------ Footer ------ */
+
+
+
 footer {
     background-image: url('../img/stars.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #000000;
-    height: 300px;
-    margin-top: 200px;
+    height: 300px;    
 }
 
 .footer1 {
@@ -217,8 +222,7 @@ footer {
     padding: 5px;
     font-family: 'Jost', sans-serif;
     font-size: 15px;
-    color: white;
-    /* background-color: rgba(0, 0, 15, 0.3); */
+    color: white;    
     text-align: center;
 }
 
@@ -292,7 +296,9 @@ footer {
 }
 
 
+
 /* ------ Productos ------ */
+
 
 
 .productos {
@@ -300,13 +306,30 @@ footer {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    font-family: 'Jost', sans-serif;
     
-   
+}
+
+.introProductos {
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.introProductos h3{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.introProductos p {
+    font-size: 18px;
 }
 
 .listaProductos {
     display: inline-block;
-    width: 18%;
+    width: 20%;
     border-right: solid 2px black;
     
 }
@@ -342,13 +365,44 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 200px;
 }
 
 .card {
     width: 25%;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.125);
+    border-radius: 15px;  
+    text-align: center;  
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.fotoProducto {
+    border: solid 1px rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .card img {
-    max-width: 90%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
 }
