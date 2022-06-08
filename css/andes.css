@@ -199,7 +199,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #000000;
-    height: 300px;    
+    height: 330px;    
 }
 
 .footer1 {
@@ -321,7 +321,7 @@ footer {
 }
 
 .footer2 {
-    height: 50px;
+    height: 80px;
     padding: 10px;
     text-align: center;
     background-color: rgba(0, 0, 20, 0.5);
